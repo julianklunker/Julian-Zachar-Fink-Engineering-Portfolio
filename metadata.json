@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Engineer's Digital Portfolio & Design Lab",
+  "description": "A high-performance portfolio for engineering students featuring a project showcase and a Gemini-powered Design Assistant to help you translate your visual concepts into code.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
