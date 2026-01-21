@@ -73,9 +73,9 @@ const Contact: React.FC = () => {
              <p className="text-blue-500 font-mono text-xs mb-3 font-bold uppercase tracking-wider">System Diagnostic</p>
              <p className="text-slate-500 font-mono text-xs leading-[1.8]">
                $ julian --status<br/>
-               <span className="text-slate-300"> Academic: Aalborg University</span><br/>
-               <span className="text-slate-300"> Course: Mechanical Engineering</span><br/>
-               <span className="text-slate-300"> Teamwork: Prioritized</span>
+               <span className="text-slate-300">&gt;&gt; Academic: Aalborg University</span><br/>
+               <span className="text-slate-300">&gt;&gt; Course: Mechanical Engineering</span><br/>
+               <span className="text-slate-300">&gt;&gt; Teamwork: Prioritized</span>
              </p>
           </div>
         </div>
