@@ -57,7 +57,7 @@ const Home: React.FC<HomeProps> = ({ onViewChange }) => {
               <div className="absolute inset-0 bg-blue-500/10 rounded-[2.5rem] -rotate-3 transition-transform duration-700 group-hover:rotate-0" />
               <div className="absolute inset-0 border border-slate-800 rounded-[2.5rem] z-10" />
               <img
-                src="/CV billede.jpg"
+                src="/components/CV billede.jpg"
                 alt="Julian Zachar-Fink"
                 className="relative rounded-[2.5rem] object-cover h-full w-full grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
               />
