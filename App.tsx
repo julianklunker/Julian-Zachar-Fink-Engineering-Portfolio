@@ -13,7 +13,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash.replace('#', '') as View;
-      if (['home', 'projects', 'contact', 'design-assistant'].includes(hash)) {
+      if (['home', 'projects', 'contact'].includes(hash)) {
         setCurrentView(hash);
       }
     };
@@ -38,7 +38,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col selection:bg-cyan-500/30">
+    <div className="min-h-screen flex flex-col selection:bg-blue-500/30 bg-slate-950">
       <Navbar currentView={currentView} />
       
       <main className="flex-grow pt-20">
@@ -49,7 +49,7 @@ const App: React.FC = () => {
 
       <footer className="bg-slate-900/50 border-t border-slate-800 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-400 text-sm">
-          <p>© {new Date().getFullYear()} Engineer Portfolio. Built with React & Gemini.</p>
+          <p>© {new Date().getFullYear()} Julian Zachar-Fink. Professional Engineering Portfolio.</p>
         </div>
       </footer>
     </div>
