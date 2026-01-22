@@ -33,8 +33,6 @@ const App: React.FC = () => {
         return <ProjectList />;
       case 'contact':
         return <Contact />;
-      case 'design-assistant':
-        return <DesignAssistant />;
       default:
         return <Home onViewChange={setCurrentView} />;
     }
