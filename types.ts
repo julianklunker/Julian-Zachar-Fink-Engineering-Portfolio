@@ -17,7 +17,7 @@ export interface Project {
   };
 }
 
-export type View = 'home' | 'projects' | 'contact' | 'design-assistant';
+export type View = 'home' | 'projects' | 'contact';
 
 export interface Skill {
   name: string;
