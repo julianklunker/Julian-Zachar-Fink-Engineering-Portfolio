@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import ProjectList from './components/ProjectList';
 import Contact from './components/Contact';
-import DesignAssistant from './components/DesignAssistant';
 import { View } from './types';
 
 const App: React.FC = () => {
