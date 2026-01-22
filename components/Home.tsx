@@ -88,15 +88,9 @@ const Home: React.FC<HomeProps> = ({ onViewChange }) => {
                         {skill.name}
                         {skill.proficiency > 90 && <CheckCircle2 size={14} className="text-blue-500/50" />}
                       </span>
-                      <span className="text-[10px] mono text-slate-600 font-bold uppercase tracking-wider">{skill.proficiency}% Capability</span>
                     </div>
-                    <div className="h-1 w-full bg-slate-900 rounded-full overflow-hidden">
-                      <div 
-                        className="h-full bg-blue-600 rounded-full transition-all duration-1000 group-hover:bg-blue-400"
-                        style={{ width: `${skill.proficiency}%` }}
-                      />
-                    </div>
-                    <p className="mt-3 text-[13px] text-slate-500 leading-relaxed font-medium">
+                    {/* Proficiency bars and percentage text removed from all categories */}
+                    <p className="mt-3 text-[13px] text-slate-500 leading-relaxed font-medium border-l-2 border-slate-800 pl-4 py-1">
                       {skill.assessment}
                     </p>
                   </div>
