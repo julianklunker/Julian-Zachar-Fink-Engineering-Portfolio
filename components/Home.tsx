@@ -111,7 +111,7 @@ const Home: React.FC<HomeProps> = ({ onViewChange }) => {
           </p>
           <div className="pt-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
             <div className="space-y-1">
-              <div className="text-slate-100 font-bold text-2xl tracking-tight">3.9 GPA</div>
+              <div className="text-slate-100 font-bold text-2xl tracking-tight">Model Student</div>
               <div className="text-slate-500 text-[10px] uppercase tracking-widest font-bold mono">Academic Excellence</div>
             </div>
             <div className="space-y-1">
