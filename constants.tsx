@@ -29,7 +29,7 @@ export const PROJECTS_DATA: Project[] = [
     id: '2',
     title: '3. Semester Project: Towpreg Machine',
     shortDescription: 'Designing a specialized machine for carbon fiber towpreg production.',
-    fullDescription: 'My current ongoing project at AAU involves the design and engineering of a carbon fiber towpreg machine. This requires precise control over tension and resin impregnation.',
+    fullDescription: 'Project: Small-Scale Carbon Fibre Tow Impregnation Machine Designed and prototyped a desktop machine to consistently impregnate carbon fibre tows with resin for composite manufacturing testing',
     contributions: 'Leading the mechanical design of the impregnation bath and the fiber guiding system.',
     challenges: 'Ensuring uniform resin distribution across carbon fiber strands without compromising the structural integrity of the individual fibers.',
     impact: 'Ongoing research aiming to streamline the production of high-performance composite materials at a lower cost.',
