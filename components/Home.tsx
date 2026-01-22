@@ -3,6 +3,7 @@ import React from 'react';
 import { View } from '../types';
 import { SKILLS_DATA } from '../constants';
 import { ArrowRight, Code, Box, Radio, FlaskConical, Target, CheckCircle2, ChevronRight } from 'lucide-react';
+import profilePic from './components/CVbillede.jpg';
 
 interface HomeProps {
   onViewChange: (view: View) => void;
@@ -24,7 +25,7 @@ const Home: React.FC<HomeProps> = ({ onViewChange }) => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
               </span>
-              Mechanical Engineering Student A
+              Mechanical Engineering Student
             </div>
             
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-white leading-[1.1]">
@@ -57,7 +58,7 @@ const Home: React.FC<HomeProps> = ({ onViewChange }) => {
               <div className="absolute inset-0 bg-blue-500/10 rounded-[2.5rem] -rotate-3 transition-transform duration-700 group-hover:rotate-0" />
               <div className="absolute inset-0 border border-slate-800 rounded-[2.5rem] z-10" />
               <img
-                src="components/CVbillede.jpg"
+                src={profilePic}
                 alt="Julian Zachar-Fink"
                 className="relative rounded-[2.5rem] object-cover h-full w-full grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
               />
