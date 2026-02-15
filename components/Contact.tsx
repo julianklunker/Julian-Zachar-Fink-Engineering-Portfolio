@@ -40,16 +40,6 @@ const Contact: React.FC = () => {
 
             <div className="flex items-start gap-6 group">
               <div className="p-4 bg-slate-900 border border-slate-800 rounded-2xl text-slate-500 group-hover:text-blue-500 transition-colors">
-                <Phone size={24} />
-              </div>
-              <div className="space-y-1">
-                <h4 className="text-slate-500 font-bold uppercase tracking-widest text-[10px] mono">Mobile Terminal</h4>
-                <p className="text-slate-100 font-semibold">+45 29 72 26 04</p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-6 group">
-              <div className="p-4 bg-slate-900 border border-slate-800 rounded-2xl text-slate-500 group-hover:text-blue-500 transition-colors">
                 <Linkedin size={24} />
               </div>
               <div className="space-y-1">
