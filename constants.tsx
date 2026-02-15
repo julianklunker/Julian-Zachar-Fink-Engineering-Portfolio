@@ -27,7 +27,7 @@ export const PROJECTS_DATA: Project[] = [
     category: 'Mechanical',
     technologies: ['SolidWorks', 'Mechanical Calculation', 'Material Selection', 'Outsourcing'],
     imageUrl: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=800',
-    pdfUrl: '#', // Add your PDF path here, e.g., '/pdfs/trash-compactor.pdf'
+    pdfUrl: '/pdf/MP_MTD_P2.pdf', // Add your PDF path here, e.g., '/pdfs/trash-compactor.pdf'
   },
   {
     id: '2',
