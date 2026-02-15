@@ -3,7 +3,7 @@ import React from 'react';
 import { View } from '../types';
 import { SKILLS_DATA } from '../constants';
 import { ArrowRight, Code, Box, Radio, FlaskConical, Target, CheckCircle2, ChevronRight } from 'lucide-react';
-import profilePic from './components/CVbillede.jpg';
+import profilePic from './CVbillede.jpg';
 
 interface HomeProps {
   onViewChange: (view: View) => void;
