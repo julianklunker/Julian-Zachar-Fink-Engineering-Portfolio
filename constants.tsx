@@ -1,5 +1,6 @@
 
 import { Project, Skill } from './types';
+import id1pic from './Images/MP2Img.png';
 
 export const SKILLS_DATA: Skill[] = [
   { name: 'Engineering Mathematics', proficiency: 92, assessment: 'Expert: Statics, dynamics, materials, calculus, and Linear Algebra through AAU courses.', category: 'Analytical' },
