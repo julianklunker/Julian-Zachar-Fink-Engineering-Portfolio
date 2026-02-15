@@ -9,6 +9,7 @@ export interface Project {
   contributions: string;
   challenges: string;
   impact: string;
+  pdfUrl?: string; // URL or path to the project PDF file
   links?: {
     github?: string;
     demo?: string;
