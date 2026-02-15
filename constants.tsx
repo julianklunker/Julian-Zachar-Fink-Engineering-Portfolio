@@ -26,7 +26,7 @@ export const PROJECTS_DATA: Project[] = [
     impact: 'Successfully prototyped a unit demonstrating a significant reduction in waste volume for residential use cases.',
     category: 'Mechanical',
     technologies: ['SolidWorks', 'Mechanical Calculation', 'Material Selection', 'Outsourcing'],
-    imageUrl: 'Images/MP2Img.png',
+    imageUrl: '/Images/MP2Img.png',
     pdfUrl: 'pdf/MP_MTD_P2.pdf', // Add your PDF path here, e.g., '/pdfs/trash-compactor.pdf'
   },
   {
