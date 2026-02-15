@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { PROJECTS_DATA } from '../constants';
 import { Project } from '../types';
-import { ExternalLink, Github, ChevronDown, ChevronUp, Layers, Tag, ShieldCheck, AlertTriangle, BarChart3 } from 'lucide-react';
+import { ExternalLink, Github, ChevronDown, ChevronUp, Layers, Tag, ShieldCheck, AlertTriangle, BarChart3, FileDown } from 'lucide-react';
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -111,13 +111,26 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
               {project.fullDescription}
             </div>
           </div>
+          
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex flex-wrap gap-2">
+              {project.technologies.map(tech => (
+                <span key={tech} className="px-3 py-1 bg-slate-900 border border-slate-700 text-slate-400 text-xs rounded-lg mono">
+                  {tech}
+                </span>
+              ))}
+            </div>
 
-          <div className="flex flex-wrap gap-2">
-            {project.technologies.map(tech => (
-              <span key={tech} className="px-3 py-1 bg-slate-900 border border-slate-700 text-slate-400 text-xs rounded-lg mono">
-                {tech}
-              </span>
-            ))}
+            {project.pdfUrl && (
+              <a 
+                href={project.pdfUrl} 
+                download 
+                className="flex items-center gap-2 px-4 py-2 bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold rounded-lg transition-all shadow-lg shadow-cyan-900/20 uppercase tracking-widest"
+              >
+                <FileDown size={16} />
+                Download PDF Documentation
+              </a>
+            )}
           </div>
         </div>
       )}
