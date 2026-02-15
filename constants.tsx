@@ -53,7 +53,7 @@ export const PROJECTS_DATA: Project[] = [
     category: 'Software',
     technologies: ['Python', 'Unit Testing', 'SQL', 'Harvard CS50'],
     imageUrl: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=800',
-    links: { github: 'https://github.com/me50/julianklunker/tree/cs50/problems/2022/python/project' }
+    links: { github: 'https://github.com/me50/julianklunker/tree/cs50/problems/2022/python/project' },
     pdfUrl: '#', // Add your PDF path here
   }
 ];
