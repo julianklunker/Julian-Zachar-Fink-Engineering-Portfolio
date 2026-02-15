@@ -11,7 +11,10 @@ export const SKILLS_DATA: Skill[] = [
   { name: 'Mechanical Design', proficiency: 87, assessment: 'Advanced: Designing complex systems like trash compactors and carbon fiber machines.', category: 'Hardware' },
   { name: 'Teamwork & Leadership', proficiency: 95, assessment: 'Expert: Prioritizing strong collaboration in high-stakes engineering group environments.', category: 'Analytical' },
 ];
-
+/**
+ * TO ADD A NEW PROJECT:
+ * Simply copy one of the objects below, give it a unique ID, and fill in your details.
+ */
 export const PROJECTS_DATA: Project[] = [
   {
     id: '1',
@@ -24,6 +27,7 @@ export const PROJECTS_DATA: Project[] = [
     category: 'Mechanical',
     technologies: ['SolidWorks', 'Mechanical Calculation', 'Material Selection', 'Outsourcing'],
     imageUrl: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=800',
+    pdfUrl: '#', // Add your PDF path here, e.g., '/pdfs/trash-compactor.pdf'
   },
   {
     id: '2',
@@ -36,6 +40,7 @@ export const PROJECTS_DATA: Project[] = [
     category: 'Mechanical',
     technologies: ['SolidWorks', 'Composite Materials', 'Machine Design', 'Aalborg PBL'],
     imageUrl: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800',
+    pdfUrl: '#', // Add your PDF path here
   },
   {
     id: '3',
@@ -49,5 +54,6 @@ export const PROJECTS_DATA: Project[] = [
     technologies: ['Python', 'Unit Testing', 'SQL', 'Harvard CS50'],
     imageUrl: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=800',
     links: { github: 'https://github.com/me50/julianklunker/tree/cs50/problems/2022/python/project' }
+    pdfUrl: '#', // Add your PDF path here
   }
 ];
